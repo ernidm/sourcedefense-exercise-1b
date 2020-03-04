@@ -105,6 +105,7 @@ function publicListener(event) { log("I'm a public listener!", event); }
 function publicListener2(event) { log("I'm a public listener 2!", event);}
 
 window.onmessage = maliciousListener;	// not allowed to use "onmessage" - will not work
+
 window.addEventListener("message", privateListener, false, "http://localhost:8000");
 window.addEventListener("message", privateListener2, false, "http://localhost:9000");
 

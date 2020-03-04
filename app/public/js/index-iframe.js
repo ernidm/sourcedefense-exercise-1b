@@ -1,6 +1,6 @@
 let { log } = console;
 
-log(`\n %c 'index-iframe.js' loaded at origin ${window.location} \n\n`, "background: blue");
+log(`\n %c 'index-iframe.js' loaded at origin ${window.location} \n`, "background: blue");
 
 function responseListener(event) {
 	let response = "at origin: " + window.location + ": '" + event.data + "' from origin: " + event.origin + "'";
