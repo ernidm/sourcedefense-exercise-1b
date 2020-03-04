@@ -1,4 +1,4 @@
-# SourceDefense - Exercise 2
+# SourceDefense - Exercise 1b
 
 ## Getting started
 
