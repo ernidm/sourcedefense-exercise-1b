@@ -40,4 +40,6 @@ Running at```http://localhost:8000``` and ```http://localhost:9000```
 The server should be running at "http://localhost:5000". \
 The iframes will run on ports 8000 and 9000.
 
+##### Use the console in the dev tools to see the messages.
+
 ### Enjoy!
