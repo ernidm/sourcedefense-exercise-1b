@@ -14,9 +14,9 @@ npm run dev
 ```
 
 ### Some explanations
-This is my solution to the 2nd question - not sure if there is a simpler solution, (I actually hope there is!) :), but my solution is to take control over the ```"window.addEventListener"``` method, meaning to override it with my own implementation, while still keeping a reference to the original one and manage all incoming messages from my own single listener using a pub/sub pattern from within.
+This is my solution to the 2nd question - not sure if there is a simpler solution, (I actually hope there is!) :), but my solution is to take control over the ```"window.addEventListener"``` method, meaning to override it with my own implementation, while still keeping a reference to the original one (and use it if needs be) and manage all incoming messages from my own single listener using a pub/sub pattern from within.
 
-Using the new implementation, a listener can privately listen to incoming messages from a different origin, while other listeners can't join in and listen to these messages.
+Using the new implementation, a listener can privately listen to incoming messages from a foreign origin, while other listeners can't join in and listen to these messages.
 
 #### Main window
 Running at```http://localhost:5000```
