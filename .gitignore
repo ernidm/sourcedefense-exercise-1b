@@ -1,0 +1,7 @@
+# deployment directories
+node_modules
+dist
+.env
+
+# optional npm cache directory
+.npm

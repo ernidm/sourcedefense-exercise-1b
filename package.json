@@ -1,0 +1,17 @@
+{
+	"name": "sourcedefense-exercise",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+        "dev": "concurrently \"nodemon app/server-main.js\" \"nodemon app/server-iframe-8000.js\" \"nodemon app/server-iframe-9000.js\"",
+        "dev5000": "nodemon app/server.js",
+        "dev8000": "nodemon app/server-iframe-8000.js",
+        "dev9000": "nodemon app/server-iframe-9000.js"
+    },
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"concurrently": "^5.1.0",
+		"express": "^4.17.1"
+	}
+}
