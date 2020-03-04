@@ -92,7 +92,7 @@ function privateListener(event) {
 
 	// send response back to the iframe
 	let iframe = document.getElementById("iframe8000");
-	iframe.contentWindow.postMessage("I received your massage!", "*");
+	iframe.contentWindow.postMessage("I received your massage!", "http://localhost:8000");
 }
 function privateListener2(event) { log("I'm a private listener!", event); }
 
